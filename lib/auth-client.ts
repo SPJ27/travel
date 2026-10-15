@@ -6,9 +6,3 @@ export const authClient = createAuthClient({
         organizationClient() 
     ]
 })
-
-const signIn = async () => {
-  const data = await authClient.signIn.social({
-    provider: "google",
-  });
-};
